@@ -1198,7 +1198,7 @@
         <div class="col-12 col-md-6 col-xl-3">
           <div class="card basket-card red-basket-card">
             <div class="card-header">
-              <div class="basketicon"><img src="img/icon.png" alt="basketicon" class="img-fluid"></div>
+              <div class="basketicon"><img src="img/fruits-icon.png" alt="basketicon" class="img-fluid"></div>
               <h5 class="title">Weekly</h5>
               <h5 class="subtitle">Fruit Basket</h5>
               <p class="head-text">(Premium)</p>
@@ -1236,7 +1236,7 @@
         <div class="col-12 col-md-6 col-xl-3">
           <div class="card basket-card blue-basket-card">
             <div class="card-header">
-              <div class="basketicon"><img src="img/icon.png" alt="basketicon" class="img-fluid"></div>
+              <div class="basketicon"><img src="img/milk-icon.png" alt="basketicon" class="img-fluid"></div>
               <h5 class="title">Weekly</h5>
               <h5 class="subtitle">Daily Milk Basket</h5>
               <p class="head-text">(Best Deal)</p>
@@ -1274,7 +1274,7 @@
         <div class="col-12 col-md-6 col-xl-3">
           <div class="card basket-card green-basket-card">
             <div class="card-header">
-              <div class="basketicon"><img src="img/icon.png" alt="basketicon" class="img-fluid"></div>
+              <div class="basketicon"><img src="img/vegetables-icon.png" alt="basketicon" class="img-fluid"></div>
               <h5 class="title">Weekly</h5>
               <h5 class="subtitle">Vegetables Basket</h5>
               <p class="head-text">(Premium)</p>
@@ -1312,7 +1312,7 @@
         <div class="col-12 col-md-6 col-xl-3">
           <div class="card basket-card grey-basket-card">
             <div class="card-header">
-              <div class="basketicon"><img src="img/icon.png" alt="basketicon" class="img-fluid"></div>
+              <div class="basketicon"><img src="img/grocery-icon.png" alt="basketicon" class="img-fluid"></div>
               <h5 class="title">Weekly</h5>
               <h5 class="subtitle">Grocery Basket</h5>
               <p class="head-text">(Available Brands)</p>
