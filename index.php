@@ -8,16 +8,18 @@
 
 <link rel="icon" href="img/icon.png" type="img/png" sizes="48x48">
 
+
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/animate.min.css">
 <link rel="stylesheet" href="css/owl.carousel.css">
 <link rel="stylesheet" href="css/mystyle.css">
 
+
 <!-- https://fonts.google.com/icons -->
 <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
 
-<title>Growstop</title>
+<title>Grostop</title>
 </head>
 <body>
 
@@ -32,7 +34,7 @@
 
 
 <!-- footer -->
-<?php // include 'footer.php';?>
+<?php include 'footer.php';?>
 <!-- footer -->
 
 <script src="js/jquery-3.5.1.min.js"></script>
@@ -54,6 +56,20 @@ $(document).ready(function() {
       itemsTablet: false,
       itemsMobile : false,
   });
+  $("#carouselTestimonials").owlCarousel({
+      navigation : false, // Show next and prev buttons
+      responsive: true,
+      autoPlay : true,
+      slideSpeed : 200,
+      pagination: true,
+      paginationSpeed : 400,
+      items : 1, 
+      itemsDesktop : false,
+      itemsDesktopSmall : false,
+      itemsTablet: false,
+      itemsMobile : false,
+  });
+  
 });    
 </script>
 </body>
