@@ -1,3 +1,7 @@
+<!-- header -->
+<?php include 'header.php';?>
+<!-- header -->
+
 <section id="carouselBanner" class="carouselBanner owl-carousel">
   <div class="item">
     <div class="banner-imgwrap">
@@ -102,7 +106,7 @@
           </div>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -137,7 +141,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer green">Get Offer 15%</div>
             </div>
@@ -169,7 +173,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer green">Get Offer 15%</div>
             </div>
@@ -201,7 +205,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -233,7 +237,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -268,7 +272,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer green">Get Offer 15%</div>
             </div>
@@ -300,7 +304,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer green">Get Offer 15%</div>
             </div>
@@ -332,7 +336,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -364,7 +368,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -396,7 +400,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -441,7 +445,7 @@
     <div class="section-content">
       <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -476,7 +480,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer green">Get Offer 15%</div>
             </div>
@@ -508,7 +512,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer green">Get Offer 15%</div>
             </div>
@@ -540,7 +544,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer green">Get Offer 15%</div>
             </div>
@@ -782,7 +786,7 @@
     <div class="section-content">
       <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -817,7 +821,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer green">Get Offer 15%</div>
             </div>
@@ -849,7 +853,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer green">Get Offer 15%</div>
             </div>
@@ -881,7 +885,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -913,7 +917,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -945,7 +949,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -989,7 +993,7 @@
     <div class="section-content">
       <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -1024,7 +1028,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer green">Get Offer 15%</div>
             </div>
@@ -1056,7 +1060,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer green">Get Offer 15%</div>
             </div>
@@ -1088,7 +1092,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -1120,7 +1124,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -1152,7 +1156,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -1360,7 +1364,7 @@
     <div class="section-content">
       <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -1395,7 +1399,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer green">Get Offer 15%</div>
             </div>
@@ -1427,7 +1431,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer green">Get Offer 15%</div>
             </div>
@@ -1459,7 +1463,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -1491,7 +1495,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -1523,7 +1527,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -1567,7 +1571,7 @@
     <div class="section-content">
       <div class="row">
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -1602,7 +1606,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer green">Get Offer 15%</div>
             </div>
@@ -1634,7 +1638,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer green">Get Offer 15%</div>
             </div>
@@ -1666,7 +1670,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -1698,7 +1702,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -1730,7 +1734,7 @@
           </a>
         </div>
         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
-          <a href="#" class="card product-card">
+          <a href="product-details.php" class="card product-card">
             <div class="card-header py-0">
               <div class="product-offer red">Get Offer 15%</div>
             </div>
@@ -1841,3 +1845,8 @@
     </div>
   </div>
 </section> -->
+
+
+<!-- footer -->
+<?php include 'footer.php';?>
+<!-- footer -->

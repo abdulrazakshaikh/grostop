@@ -24,7 +24,7 @@
 <body>
 
 <!-- header -->
-<?php include 'header.php';?>
+<?php // include 'header.php';?>
 <!-- header -->
 
 
@@ -34,7 +34,7 @@
 
 
 <!-- footer -->
-<?php include 'footer.php';?>
+<?php // include 'footer.php';?>
 <!-- footer -->
 
 <script src="js/jquery-3.5.1.min.js"></script>

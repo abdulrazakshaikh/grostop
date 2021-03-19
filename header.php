@@ -56,12 +56,19 @@
         </div>
       </div>
       <div class="col-12 col-lg-4 choosecity-wrap">
-        <div class="col-12 mr-auto px-0">
-          <a href="" class="choosecity-link">
+        <div class="col-12 mr-auto px-0 dropdown">
+          <a href="" class="choosecity-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="text-uppercase">Choose your City</span>  
             <span class="px-2"> - </span>
             <span>Ranchi</span>
           </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+            <h6 class="dropdown-header text-uppercase pb-2 pt-3">Choose your City</h6>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item active" href="#">Ranchi</a>
+            <a class="dropdown-item" href="#">Bokaro</a>
+            <a class="dropdown-item" href="#">Kolkata</a>
+          </div>
         </div>
       </div>
     </div>
