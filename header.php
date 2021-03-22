@@ -128,7 +128,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Vegetables</a>
+          <a class="nav-link" href="product-search.php">Vegetables</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Fruits</a>
