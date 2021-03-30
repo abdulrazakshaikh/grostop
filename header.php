@@ -116,7 +116,103 @@
         <li class="nav-item dropdown dropdown-mega">
           <a class="nav-link dropdown-toggle" href="#" id="dropdownallbrands" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Brands</a>
           <div class="dropdown-menu animated slideInUp" aria-labelledby="dropdownallbrands">
-            <a class="dropdown-item" href="#">One Brands </a>
+            <div class="row no-gutters">
+              <div class="col-12 col-lg-8">
+                <div class="row">
+                <div class="col-12 col-sm-6">
+                  <div class="menu-group">
+                    <h4 class="menu-list-heading">Category One</h4>
+                    <ul class="menu-list">
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items One</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items Two</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items Three</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items Four</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items Five</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="menu-group">
+                    <h4 class="menu-list-heading">Category One</h4>
+                    <ul class="menu-list">
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items One</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items Two</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items Three</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items Four</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items Five</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="menu-group">
+                    <h4 class="menu-list-heading">Category One</h4>
+                    <ul class="menu-list">
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items One</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items Two</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items Three</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items Four</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items Five</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="menu-group">
+                    <h4 class="menu-list-heading">Category One</h4>
+                    <ul class="menu-list">
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items One</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items Two</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items Three</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items Four</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="" class="menu-item-link">Menu Items Five</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 text-right d-none d-lg-block">
+                <a href="" class="p-0">
+                  <img src="//cdn.shopify.com/s/files/1/0033/7956/0537/files/Untitled-1_127929f7-54ee-440c-86e1-a5603ef03c3b.png?v=1540789187" class="img-fluid lazyloaded" alt="">
+                </a>
+              </div>
+            </div>            
+
+            <!-- <a class="dropdown-item" href="#">One Brands </a>
             <a class="dropdown-item" href="#">Two Brands</a>
             <a class="dropdown-item" href="#">Three Brands</a>
             <a class="dropdown-item" href="#">Four Brands</a>
@@ -124,7 +220,7 @@
             <a class="dropdown-item" href="#">Six Brands</a>
             <a class="dropdown-item" href="#">Seven Brands</a>
             <a class="dropdown-item" href="#">Eight Brands</a>
-            <a class="dropdown-item" href="#">Nine Brands</a>
+            <a class="dropdown-item" href="#">Nine Brands</a> -->
           </div>
         </li>
         <li class="nav-item">

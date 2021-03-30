@@ -63,7 +63,7 @@ rel="stylesheet">
                   </select>
                 </div>
               </div>
-              <div class="sort-layout">
+              <!-- <div class="sort-layout">
                   <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-outline-dark">
                       <input type="radio" name="options" id="option1" checked="">
@@ -77,7 +77,7 @@ rel="stylesheet">
                   <button class="btn btn-outline-dark filterbutton" type="button" data-toggle="filterMenu">
                       <span class="material-icons-outlined">filter_alt</span>
                   </button>
-              </div>
+              </div> -->
             </div>
         </div>
       </div>
