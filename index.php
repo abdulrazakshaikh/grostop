@@ -69,7 +69,6 @@ $(document).ready(function() {
       itemsTablet: false,
       itemsMobile : false,
   });
-  
 });    
 </script>
 </body>

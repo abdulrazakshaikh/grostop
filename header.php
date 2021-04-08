@@ -19,7 +19,7 @@
       </div>
       <ul class="navbar-nav order-0 order-lg-1 ml-auto ml-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="cart.php">
             <span class="gs-icon material-icons-outlined">shopping_basket</span>
             <span class="nav-link-text">My Cart</span>
           </a>
@@ -28,7 +28,7 @@
           <div class="nav-divider"></div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="myaccount.php">
             <span class="gs-icon material-icons-outlined">account_circle</span>
             <span class="nav-link-text">User Name</span>
           </a>
@@ -227,19 +227,19 @@
           <a class="nav-link" href="product-search.php">Vegetables</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Fruits</a>
+          <a class="nav-link" href="product-search.php">Fruits</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Dairy & Bakery</a>
+          <a class="nav-link" href="product-search.php">Dairy & Bakery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Gro Kart</a>
+          <a class="nav-link" href="product-search.php">Gro Kart</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Branded Food</a>
+          <a class="nav-link" href="product-search.php">Branded Food</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Fish, Meat and Eggs</a>
+          <a class="nav-link" href="product-search.php">Fish, Meat and Eggs</a>
         </li>
         <li class="nav-item ml-0 ml-lg-auto">
           <a class="nav-link no-line nav-link-email" href="#">help@grostop.in</a>
