@@ -80,6 +80,14 @@ $(document).ready(function() {
     });
 });
 
+
+$('#myList a').on('click', function (event) {
+  event.preventDefault()
+  $(this).tab('show')
+})
+
+
+
 // $('#hometag,#officetag,#otherstag').on('click', function (e) {
 //     e.stopPropagation();
 //     if (this.id == 'collapseOthers') {
