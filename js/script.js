@@ -86,7 +86,27 @@ $('#myList a').on('click', function (event) {
   $(this).tab('show')
 })
 
+ $(document).ready(function () {
+     $('body').on('click', '#open_loginmodal', function () {
+         var dataURL = $(this).attr('data-href');
+         $('.login-data').load(dataURL, function () {
+             $('#LoginModal').modal({show: true});
+         });
+     });
+ });  
 
+  $(document).ready(function () {
+     $('body').on('click', '#open_addadressmodal', function () {
+         var dataURL = $(this).attr('data-href');
+         $('.address-data').load(dataURL, function () {
+             $('#addAddressModal').modal({show: true});
+         });
+     });
+ });  
+
+$(document).ready(function(){
+    $("#selectLocationModal").modal('show');
+});
 
 // $('#hometag,#officetag,#otherstag').on('click', function (e) {
 //     e.stopPropagation();
