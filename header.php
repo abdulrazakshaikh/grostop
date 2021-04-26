@@ -28,10 +28,14 @@
           <div class="nav-divider"></div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="myaccount.php">
+          <a href="javascript:void(0)" class="nav-link" id="open_loginmodal" data-href="login-modal.php">
             <span class="gs-icon material-icons-outlined">account_circle</span>
             <span class="nav-link-text">User Name</span>
           </a>
+          <!-- <a class="nav-link" href="myaccount.php">
+            <span class="gs-icon material-icons-outlined">account_circle</span>
+            <span class="nav-link-text">User Name</span>
+          </a> -->
         </li>
       </ul>
     </div>

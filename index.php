@@ -37,6 +37,28 @@
 <?php // include 'footer.php';?>
 <!-- footer -->
 
+
+<!-- select location -->
+<?php include 'selectlocation.php';?>
+<!-- select location -->
+
+<div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+              <div class="modal-logo">
+                <img src="img/grostop_logo.png" class="img-fluid" alt="">
+              </div>  
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="login-data"></div>
+        </div>
+    </div>
+</div>
+
+
 <script src="js/jquery-3.5.1.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
@@ -69,7 +91,17 @@ $(document).ready(function() {
       itemsTablet: false,
       itemsMobile : false,
   });
-});    
+});
 </script>
+<!-- <script>
+   $(document).ready(function () {
+       $('body').on('click', '#open_loginmodal', function () {
+           var dataURL = $(this).attr('data-href');
+           $('.login-data').load(dataURL, function () {
+               $('#LoginModal').modal({show: true});
+           });
+       });
+   });  
+</script> -->
 </body>
 </html>

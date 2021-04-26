@@ -86,6 +86,7 @@ rel="stylesheet">
                       <div class="card-body">
                         <div class="profile-pic">
                           <a href="#" class="profile-pic-overlay">
+                            <input type="file" class="pic-file">
                             <span class="gs-icon material-icons-outlined">insert_photo</span>
                           </a>
                           <img src="https://www.biography.com/.image/t_share/MTE4MDAzNDEwNzQzMTY2NDc4/will-smith-9542165-1-402.jpg" class="img-fluid" alt="">
@@ -105,24 +106,44 @@ rel="stylesheet">
                     </div>
                   </div>  
                   <div class="col-12 col-lg-8">
-                    <h6 class="text-uppercase mt-2 mb-4">Change Password</h6>
-                    <form action="">
+                    <div class="fill-details mb-4">
+                      <h6 class="text-uppercase mt-2 mb-3">Fill your Details</h6>
                       <div class="form-group">
-                        <label for="">Old Password</label>
-                        <input type="password" class="form-control" id="" value="xxxxxxxx">
+                        <label for="">Full Name</label>
+                        <input type="text" class="form-control" id="" value="">
                       </div>
+
                       <div class="form-group">
-                        <label for="">New Password</label>
-                        <input type="password" class="form-control" id="" value="xxxxxxxx">
+                        <label for="">Email Address</label>
+                        <input type="email" class="form-control" id="" value="">
                       </div>
-                      <div class="form-group">
-                        <label for="">Confirm New Password</label>
-                        <input type="password" class="form-control" id="" value="xxxxxxxx">
-                      </div>
-                      <div class="fomr-group text-right">
-                        <button type="submit" class="btn btn-primary">Save Changes</button>
-                      </div>
-                    </form>
+
+                      <div class="form-group text-right">
+                          <button type="submit" class="btn btn-primary">Save Changes</button>
+                        </div>
+                    </div>
+
+
+                    <!-- <div class="change-password mt-4">
+                      <h6 class="text-uppercase mt-2 mb-3">Change Password</h6>
+                      <form action="">
+                        <div class="form-group">
+                          <label for="">Old Password</label>
+                          <input type="password" class="form-control" id="" value="xxxxxxxx">
+                        </div>
+                        <div class="form-group">
+                          <label for="">New Password</label>
+                          <input type="password" class="form-control" id="" value="xxxxxxxx">
+                        </div>
+                        <div class="form-group">
+                          <label for="">Confirm New Password</label>
+                          <input type="password" class="form-control" id="" value="xxxxxxxx">
+                        </div>
+                        <div class="fomr-group text-right">
+                          <button type="submit" class="btn btn-primary">Save Changes</button>
+                        </div>
+                      </form>
+                    </div> -->
                   </div>  
                 </div>
               </div>
@@ -406,7 +427,7 @@ rel="stylesheet">
                 <div class="row">
                   <div class="col-12">
                     <div class="add-address">
-                      <a href="#addAddressModal" class="btn add-address-link" data-toggle="modal">
+                      <a href="javascript:void(0)" id="open_addadressmodal" data-href="address-modal.php" class="btn add-address-link" data-toggle="modal">
                         <span class="gs-icon material-icons-outlined">add</span>
                         Add New Address
                       </a>
@@ -798,77 +819,28 @@ rel="stylesheet">
 
 
 <!-- Add Address Modal -->
-<div class="modal fade" id="addAddressModal" tabindex="-1" aria-labelledby="addAddressModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="addAddressModalLabel">Add New Address</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="row">
-          <div class="col-12">
-            <div class="form-group">
-              <div class="btn-group btn-group-tags btn-group-toggle" data-toggle="buttons">
-                <label class="btn btn-outline-dark btn-sm active">
-                  <input type="radio" name="tags" id="taghome" value="home" checked>Home
-                </label>
-                <label class="btn btn-outline-dark btn-sm">
-                  <input type="radio" name="tags" id="tagoffice" value="office">Office
-                </label>
-                <label class="btn btn-outline-dark btn-sm">
-                  <input type="radio" name="tags" id="tagothers" value="others">Others
-                </label>
-                  <div id="collapseothers" style="display: none;">
-                    <div class="form-group mb-0">
-                      <input id="" name="" type="text" placeholder="Enter Tags" class="form-control form-control-sm rounded-0">
-                    </div>
-                  </div>  
-              </div>
-            </div>
-           
-          </div>
+<div class="modal fade" id="addAddressModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="address-data"></div>
         </div>
-        <hr>
-        <div class="row">
-          <div class="col-lg-12 col-md-12">
-            <div class="form-group">
-              <label class="control-label">Flat / House / Office No.</label>
-              <input id="" name="" type="text" placeholder="Flat / House / Office No." class="form-control input-md" required="">
-            </div>
-            
-          </div>
-          <div class="col-lg-12 col-md-12">
-            <div class="form-group">
-              <label class="control-label">Address Line</label>
-              <input id="" name="" type="text" placeholder="Address Line" class="form-control input-md">
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-12">
-            <div class="form-group">
-              <label class="control-label">Pincode</label>
-              <input id="pincode" name="pincode" type="text" placeholder="Pincode" class="form-control input-md" required="">
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-12">
-            <div class="form-group">
-              <label class="control-label">City</label>
-              <input id="" name="" type="text" placeholder="City" class="form-control input-md" required="">
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-secondary">Save changes</button>
-      </div>
     </div>
-  </div>
+</div>
+
+<div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+              <div class="modal-logo">
+                <img src="img/grostop_logo.png" class="img-fluid" alt="">
+              </div>  
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="login-data"></div>
+        </div>
+    </div>
 </div>
 
 <script src="js/jquery-3.5.1.min.js"></script>

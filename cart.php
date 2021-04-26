@@ -109,7 +109,7 @@ rel="stylesheet">
 
           <div class="steppper-content tab-content">
             <div class="tab-pane" id="tab1">
-              <div class="list-group cart-list-group">
+              <ul class="list-group cart-list-group">
                 <li class="list-group-item d-flex align-items-start">
                   <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" id="customCheck1">
@@ -121,7 +121,10 @@ rel="stylesheet">
                         <img src="https://purepng.com/public/uploads/large/purepng.com-bananafruitsyellowfruit-981524754330lspp8.png" class="img-fluid" alt="...">
                       </div>
                       <div class="cart-group-item-body">
-                        <h5 class="product-name">Banana</h5>
+                        <div class="product-head">
+                          <h5 class="product-name">Banana</h5>
+                          <p class="product-desc">(Small Kerala Banana)</p>
+                        </div>
                         <div class="cart-group-item-inner">
                           <div class="form-group mb-0">
                             <select class="custom-select" id="">
@@ -158,7 +161,10 @@ rel="stylesheet">
                         <img src="https://purepng.com/public/uploads/large/purepng.com-bananafruitsyellowfruit-981524754330lspp8.png" class="img-fluid" alt="...">
                       </div>
                       <div class="cart-group-item-body">
-                        <h5 class="product-name">Banana</h5>
+                        <div class="product-head">
+                          <h5 class="product-name">Banana</h5>
+                          <p class="product-desc">(Small Kerala Banana)</p>
+                        </div>
                         <div class="cart-group-item-inner">
                           <div class="form-group mb-0">
                             <select class="custom-select" id="">
@@ -195,7 +201,10 @@ rel="stylesheet">
                         <img src="https://purepng.com/public/uploads/large/purepng.com-bananafruitsyellowfruit-981524754330lspp8.png" class="img-fluid" alt="...">
                       </div>
                       <div class="cart-group-item-body">
-                        <h5 class="product-name">Banana</h5>
+                        <div class="product-head">
+                          <h5 class="product-name">Banana</h5>
+                          <p class="product-desc">(Small Kerala Banana)</p>
+                        </div>
                         <div class="cart-group-item-inner">
                           <div class="form-group mb-0">
                             <select class="custom-select" id="">
@@ -232,7 +241,10 @@ rel="stylesheet">
                         <img src="https://purepng.com/public/uploads/large/purepng.com-bananafruitsyellowfruit-981524754330lspp8.png" class="img-fluid" alt="...">
                       </div>
                       <div class="cart-group-item-body">
-                        <h5 class="product-name">Banana</h5>
+                        <div class="product-head">
+                          <h5 class="product-name">Banana</h5>
+                          <p class="product-desc">(Small Kerala Banana)</p>
+                        </div>
                         <div class="cart-group-item-inner">
                           <div class="form-group mb-0">
                             <select class="custom-select" id="">
@@ -258,11 +270,11 @@ rel="stylesheet">
                     </div>
                   </div>
                 </li>
-              </div>
+              </ul>
             </div>
             <div class="tab-pane" id="tab2">
                 <div class="add-address">
-                  <a href="#addAddressModal" class="btn add-address-link" data-toggle="modal">
+                  <a href="javascript:void(0)" id="open_addadressmodal" data-href="address-modal.php" class="btn add-address-link" data-toggle="modal">
                     <span class="gs-icon material-icons-outlined">add</span>
                     Add New Address
                   </a>
@@ -316,10 +328,90 @@ rel="stylesheet">
                 </ul>
             </div>
             <div class="tab-pane" id="tab3">
-              <h5 class="display-4">Checkout</h5>
+              <ul class="list-unstyled list-group address-list-group mb-4">
+                <li class="media list-group-item">
+                  <div class="icon-wrap">
+                    <span class="gs-icon material-icons-outlined">place</span>
+                  </div>
+                  <div class="media-body list-group-inner">
+                    <h5>Delivery Address</h5>
+                    <p class="address-text">Room No.: 001, Plot No. 420, Lorem Ipsum Nagar, Dolor Sit Road, Mumbai, 400706</p>
+                  </div>
+                </li>
+              </ul>
+
+              <ul class="list-group cart-list-group checkout-cart-list-group">
+                <li class="list-group-item d-flex align-items-start">
+                  <div class="cart-group-item">
+                    <div class="cart-group-item-inner">
+                      <div class="img-wrap">
+                        <img src="https://purepng.com/public/uploads/large/purepng.com-bananafruitsyellowfruit-981524754330lspp8.png" class="img-fluid" alt="...">
+                      </div>
+                      <div class="cart-group-item-body">
+                        <div class="product-head">
+                          <h5 class="product-name">Banana</h5>
+                          <p class="product-desc">(Small Kerala Banana)</p>
+                        </div>
+                        <div class="cart-group-item-inner">
+                          <span class="qty">12pcs</span>
+                          <h6 class="product-price">
+                            <span class="cross-price">₹ 150</span>
+                            <span class="actual-price">₹ 125</span>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item d-flex align-items-start">
+                  <div class="cart-group-item">
+                    <div class="cart-group-item-inner">
+                      <div class="img-wrap">
+                        <img src="https://purepng.com/public/uploads/large/purepng.com-bananafruitsyellowfruit-981524754330lspp8.png" class="img-fluid" alt="...">
+                      </div>
+                      <div class="cart-group-item-body">
+                        <div class="product-head">
+                          <h5 class="product-name">Banana</h5>
+                          <p class="product-desc">(Small Kerala Banana)</p>
+                        </div>
+                        <div class="cart-group-item-inner">
+                          <span class="qty">12pcs</span>
+                          <h6 class="product-price">
+                            <span class="cross-price">₹ 150</span>
+                            <span class="actual-price">₹ 125</span>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item d-flex align-items-start">
+                  <div class="cart-group-item">
+                    <div class="cart-group-item-inner">
+                      <div class="img-wrap">
+                        <img src="https://purepng.com/public/uploads/large/purepng.com-bananafruitsyellowfruit-981524754330lspp8.png" class="img-fluid" alt="...">
+                      </div>
+                      <div class="cart-group-item-body">
+                        <div class="product-head">
+                          <h5 class="product-name">Banana</h5>
+                          <p class="product-desc">(Small Kerala Banana)</p>
+                        </div>
+                        <div class="cart-group-item-inner">
+                          <span class="qty">12pcs</span>
+                          <h6 class="product-price">
+                            <span class="cross-price">₹ 150</span>
+                            <span class="actual-price">₹ 125</span>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
             </div>
             <div class="tab-pane" id="tab4">
-              <h5 class="display-4">Payment</h5>
+              <h5 class="display-4">Payment Gateway</h5>
             </div>
           </div>
 
@@ -370,77 +462,28 @@ rel="stylesheet">
 
 
 <!-- Add Address Modal -->
-<div class="modal fade" id="addAddressModal" tabindex="-1" aria-labelledby="addAddressModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="addAddressModalLabel">Add New Address</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="row">
-          <div class="col-12">
-            <div class="form-group">
-              <div class="btn-group btn-group-tags btn-group-toggle" data-toggle="buttons">
-                <label class="btn btn-outline-dark btn-sm active">
-                  <input type="radio" name="tags" id="taghome" value="home" checked>Home
-                </label>
-                <label class="btn btn-outline-dark btn-sm">
-                  <input type="radio" name="tags" id="tagoffice" value="office">Office
-                </label>
-                <label class="btn btn-outline-dark btn-sm">
-                  <input type="radio" name="tags" id="tagothers" value="others">Others
-                </label>
-                  <div id="collapseothers" style="display: none;">
-                    <div class="form-group mb-0">
-                      <input id="" name="" type="text" placeholder="Enter Tags" class="form-control form-control-sm rounded-0">
-                    </div>
-                  </div>  
-              </div>
-            </div>
-           
-          </div>
+<div class="modal fade" id="addAddressModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="address-data"></div>
         </div>
-        <hr>
-        <div class="row">
-          <div class="col-lg-12 col-md-12">
-            <div class="form-group">
-              <label class="control-label">Flat / House / Office No.</label>
-              <input id="" name="" type="text" placeholder="Flat / House / Office No." class="form-control input-md" required="">
-            </div>
-            
-          </div>
-          <div class="col-lg-12 col-md-12">
-            <div class="form-group">
-              <label class="control-label">Address Line</label>
-              <input id="" name="" type="text" placeholder="Address Line" class="form-control input-md">
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-12">
-            <div class="form-group">
-              <label class="control-label">Pincode</label>
-              <input id="pincode" name="pincode" type="text" placeholder="Pincode" class="form-control input-md" required="">
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-12">
-            <div class="form-group">
-              <label class="control-label">City</label>
-              <input id="" name="" type="text" placeholder="City" class="form-control input-md" required="">
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-secondary">Save changes</button>
-      </div>
     </div>
-  </div>
+</div>
+
+<div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+              <div class="modal-logo">
+                <img src="img/grostop_logo.png" class="img-fluid" alt="">
+              </div>  
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="login-data"></div>
+        </div>
+    </div>
 </div>
 
 <script src="js/jquery-3.5.1.min.js"></script>

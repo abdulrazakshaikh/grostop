@@ -1026,6 +1026,21 @@ rel="stylesheet">
 <?php include 'footer.php';?>
 <!-- footer -->
 
+<div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+              <div class="modal-logo">
+                <img src="img/grostop_logo.png" class="img-fluid" alt="">
+              </div>  
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="login-data"></div>
+        </div>
+    </div>
+</div>
 
 <script src="js/jquery-3.5.1.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
